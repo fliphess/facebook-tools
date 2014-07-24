@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 import cgi
 import cgitb
-from types import NoneType
-import urllib2, json, re, sys
+import urllib2
+import json
+
 from html.page import header, table, footer
-from django.utils.encoding import smart_str, smart_unicode
+from django.utils.encoding import smart_str
 
 cgitb.enable()
 
